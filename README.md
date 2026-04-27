@@ -1,54 +1,77 @@
 # 🧩 ASD Screening Support Tool
 
-**Bachelor Thesis Artifact**
-Ronizza Mangaya-ay | Noroff University College | 2025
+Interactive research artifact accompanying the bachelor thesis:
+
+> **Machine Learning and Deep Learning Approaches for Early 
+> Detection of Autism Spectrum Disorder**
+> Ronizza Mangaya-ay | Noroff University College | 2025
+> Supervisor: Bertram Haskins
+
+This application implements the Decision Tree screening support 
+model developed in the thesis and allows users to enter AQ-10 
+questionnaire responses and demographic features to generate an 
+ASD risk screening result.
 
 ---
 
-## About
+## 🚀 Live Demo
 
-This interactive web application was developed as the practical artifact for the bachelor thesis:
-
-**"Machine Learning and Deep Learning Approaches for Early Detection of Autism Spectrum Disorder"**
-
-The tool implements a Decision Tree model trained on the UCI ASD Screening Dataset (5,021 records across children, adolescents, and adults).
+🔗 https://ronizza-asd-screening.streamlit.app
 
 ---
 
-## How to Use
+## 💻 Run Locally
 
-1. Enter demographic information (age, gender, jaundice history, family ASD history)
-2. Answer the 10 AQ-10 behavioural screening questions
-3. Click **Calculate Screening Result**
-4. View the model prediction and AQ-10 score
+```bash
+streamlit run app.py
+```
+
+## 📦 Install Requirements
+
+```bash
+pip install -r requirements.txt
+```
 
 ---
 
-## Technical Details
+## ⚠️ Research Use Disclaimer
 
-| Component | Details |
-|-----------|---------|
-| Framework | Streamlit |
-| Language | Python 3.13 |
-| Model | Decision Tree (max_depth=10) |
-| Input Features | 14 (10 AQ-10 + 4 demographic) |
+This tool is provided for **research and educational purposes only.**
+
+- It is a screening support prototype and does not constitute 
+a clinical diagnostic instrument
+- It must not be used as a substitute for professional medical 
+assessment or diagnosis
+- A positive result should always be followed by evaluation 
+from a trained specialist
+
+---
+
+## 📁 Artifact Components
+
+| File | Description |
+|------|-------------|
+| `app.py` | Main Streamlit application |
+| `model.pkl` | Serialised Decision Tree model |
+| `requirements.txt` | Python dependencies |
+| `README.md` | Project documentation |
+
+---
+
+## 🔬 Research Details
+
+| Item | Details |
+|------|---------|
+| Author | Ronizza Mangaya-ay |
+| Institution | Noroff University College, Norway |
+| Supervisor | Bertram Haskins |
+| Year | 2025 |
 | Dataset | UCI ASD Screening Dataset |
 | Records | 5,021 across 3 age groups |
+| Best Model | Decision Tree (PR-AUC: 0.3369) |
 
 ---
 
-## Important Disclaimer
+## 📚 Source Code
 
-⚠️ This tool is for **research and educational purposes only**.
-It does **not** constitute a clinical diagnosis.
-A positive result should always be followed by evaluation from a trained specialist.
-
----
-
-## Thesis Details
-
-- **Author:** Ronizza Mangaya-ay
-- **Supervisor:** Bertram Haskins
-- **Institution:** Noroff University College, Norway
-- **Year:** 2025
-- **Best Model:** Decision Tree (PR-AUC: 0.3369, Nested CV F1: 0.2513)
+🔗 https://github.com/roniz29/asd_screening_tool
