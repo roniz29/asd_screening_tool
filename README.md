@@ -42,8 +42,7 @@ This tool is provided for **research and educational purposes only.**
 a clinical diagnostic instrument
 - It must not be used as a substitute for professional medical 
 assessment or diagnosis
-- A positive result should always be followed by evaluation 
-from a trained specialist
+- An elevated screening result should be followed by evaluation by a qualified specialist.
 
 ---
 
