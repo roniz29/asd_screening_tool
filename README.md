@@ -67,7 +67,7 @@ assessment or diagnosis
 | Year | 2025 |
 | Dataset | UCI ASD Screening Dataset |
 | Records | 5,021 across 3 age groups |
-| Best Model | Decision Tree (PR-AUC: 0.3369) |
+| Deployment Model | Decision Tree (PR-AUC: 0.3369) |
 
 ---
 
