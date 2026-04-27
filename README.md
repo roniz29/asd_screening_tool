@@ -51,7 +51,7 @@ assessment or diagnosis
 | File | Description |
 |------|-------------|
 | `app.py` | Main Streamlit application |
-| `model.pkl` | Serialised Decision Tree model |
+| `model.pkl` | Serialized Decision Tree model |
 | `requirements.txt` | Python dependencies |
 | `README.md` | Project documentation |
 
